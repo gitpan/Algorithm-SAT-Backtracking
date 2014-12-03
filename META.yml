@@ -26,12 +26,15 @@ no_index:
 provides:
   Algorithm::SAT::Backtracking:
     file: lib/Algorithm/SAT/Backtracking.pm
-    version: '0.01'
+    version: '0.02'
+  Algorithm::SAT::Expression:
+    file: lib/Algorithm/SAT/Expression.pm
+    version: '0.02'
 requires:
   perl: '5.008001'
 resources:
   bugtracker: https://github.com/mudler/Algorithm-Sat-Backtracking/issues
   homepage: https://github.com/mudler/Algorithm-Sat-Backtracking
   repository: git://github.com/mudler/Algorithm-Sat-Backtracking.git
-version: '0.01'
+version: '0.02'
 x_authority: cpan:MUDLER

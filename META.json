@@ -54,7 +54,11 @@
    "provides" : {
       "Algorithm::SAT::Backtracking" : {
          "file" : "lib/Algorithm/SAT/Backtracking.pm",
-         "version" : "0.01"
+         "version" : "0.02"
+      },
+      "Algorithm::SAT::Expression" : {
+         "file" : "lib/Algorithm/SAT/Expression.pm",
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -68,6 +72,6 @@
          "web" : "https://github.com/mudler/Algorithm-Sat-Backtracking"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_authority" : "cpan:MUDLER"
 }

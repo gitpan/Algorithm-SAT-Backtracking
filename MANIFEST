@@ -5,8 +5,10 @@ META.json
 README.md
 cpanfile
 lib/Algorithm/SAT/Backtracking.pm
+lib/Algorithm/SAT/Expression.pm
 minil.toml
 t/00_compile.t
 t/01_backtrack.t
+t/02_expression.t
 META.yml
 MANIFEST
