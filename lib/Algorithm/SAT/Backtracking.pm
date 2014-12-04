@@ -1,5 +1,4 @@
 package Algorithm::SAT::Backtracking;
-use 5.008001;
 use strict;
 use warnings;
 use Storable qw(dclone);
@@ -16,7 +15,7 @@ use Storable qw(dclone);
 #
 # `[['blue', 'green'], ['green', '-yellow']]`
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub new {
     return bless {}, shift;

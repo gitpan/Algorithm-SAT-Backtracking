@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build::Tiny: '0.035'
 dynamic_config: 0
-generated_by: 'Minilla/v2.1.1, CPAN::Meta::Converter version 2.142060'
+generated_by: 'Minilla/v2.2.1, CPAN::Meta::Converter version 2.142060'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,15 +26,15 @@ no_index:
 provides:
   Algorithm::SAT::Backtracking:
     file: lib/Algorithm/SAT/Backtracking.pm
-    version: '0.02'
+    version: '0.03'
   Algorithm::SAT::Expression:
     file: lib/Algorithm/SAT/Expression.pm
-    version: '0.02'
+    version: '0.03'
 requires:
   perl: '5.008001'
 resources:
   bugtracker: https://github.com/mudler/Algorithm-Sat-Backtracking/issues
   homepage: https://github.com/mudler/Algorithm-Sat-Backtracking
   repository: git://github.com/mudler/Algorithm-Sat-Backtracking.git
-version: '0.02'
+version: '0.03'
 x_authority: cpan:MUDLER
